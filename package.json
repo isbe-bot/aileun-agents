@@ -1,0 +1,19 @@
+{
+  "name": "aileun-agents",
+  "version": "0.1.0",
+  "description": "AILEUN Agents Manager (Phase 1 baseline)",
+  "type": "module",
+  "bin": {
+    "agentctl": "./bin/agentctl.js"
+  },
+  "scripts": {
+    "format": "node ./scripts/format.mjs",
+    "test": "node --test",
+    "build": "node ./scripts/build.mjs",
+    "smoke": "node ./scripts/smoke.mjs"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "license": "MIT"
+}
