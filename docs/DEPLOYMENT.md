@@ -7,9 +7,11 @@ This guide deploys `aileun-agents` as a Phase 1 CLI/SQLite ledger tool on a VPS.
 ```bash
 sudo mkdir -p /opt/aileun
 sudo chown "$USER":"$USER" /opt/aileun
-git clone git@github-isbe:isbe-bot/aileun-agents.git /opt/aileun/aileun-agents
+git clone https://github.com/isbe-bot/aileun-agents.git /opt/aileun/aileun-agents
 cd /opt/aileun/aileun-agents
 ```
+
+For ISBE internal SSH deployments, the equivalent remote is `git@github-isbe:isbe-bot/aileun-agents.git`.
 
 ## 2. Verify
 

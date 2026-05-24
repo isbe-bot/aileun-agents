@@ -33,7 +33,7 @@ Safety note: **Phase 1 is read-only indexing and hashing. It does not edit agent
 ## Install from source
 
 ```bash
-git clone git@github-isbe:isbe-bot/aileun-agents.git
+git clone https://github.com/isbe-bot/aileun-agents.git
 cd aileun-agents
 npm test
 npm run build
