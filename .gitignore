@@ -6,3 +6,12 @@ runtime/
 .env
 .DS_Store
 coverage/
+.env.*
+.secrets/
+*.key
+*.pem
+*.db
+*.db-*
+*.sqlite3
+dist/
+*.log

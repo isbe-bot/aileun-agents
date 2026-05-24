@@ -1,7 +1,7 @@
 {
   "name": "aileun-agents",
   "version": "0.1.0",
-  "description": "AILEUN Agents Manager (Phase 1 baseline)",
+  "description": "Local-first agent profile ledger with canonical file hashing.",
   "type": "module",
   "bin": {
     "agentctl": "./bin/agentctl.js"
@@ -15,5 +15,22 @@
   "engines": {
     "node": ">=22.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github-isbe/isbe-bot/aileun-agents.git"
+  },
+  "homepage": "https://github.com/isbe-bot/aileun-agents#readme",
+  "bugs": {
+    "url": "https://github.com/isbe-bot/aileun-agents/issues"
+  },
+  "keywords": [
+    "aileun",
+    "openclaw",
+    "mission-control",
+    "vps",
+    "sqlite",
+    "local-first"
+  ],
+  "author": "ISBE"
 }
