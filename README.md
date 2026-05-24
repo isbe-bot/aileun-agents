@@ -92,8 +92,13 @@ node bin/agentctl.js files carmack --json
 
 Phase 1 creates the baseline tables needed for future daemon/API and Mission Control integration:
 
+Phase 1 creates these tables:
+
 - `agents`
 - `agent_files`
+
+Future phases add these planned tables:
+
 - `agent_revisions`
 - `agent_events`
 - `agent_permissions`
